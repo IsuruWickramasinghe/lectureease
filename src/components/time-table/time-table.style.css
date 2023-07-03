@@ -1,0 +1,58 @@
+.time-table{
+  padding: var(--spacing-large);
+  box-shadow: var(--box-shadow-1);
+  background-color: var(--color-white);
+  height: calc(100svh - var(--headerbar-height));
+}
+.table-header-display td:not(:first-child){
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  padding: 5px 0;
+}
+.value-cell{
+  width: 150px;
+  text-align: center;
+  padding: 5px 0 5px 0;
+}
+.table-body tr td div{
+  font-weight: 600;
+}
+.table-body tr td:nth-child(1){
+  background-color: rgb(241, 241, 241);
+}
+.table-body tr td:nth-child(2){
+  background-color: #fffd81;
+}
+.table-body tr td:nth-child(3){
+  background-color: #baff81;
+}
+.table-body tr td:nth-child(4){
+  background-color: #81ffee;
+}
+.table-body tr td:nth-child(5){
+  background-color: #c281ff;
+}
+.table-body tr td:nth-child(6){
+  background-color: #ff81c4;
+}
+
+.year-select{
+  padding: 10px 0 20px 0;
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-medium);
+}
+.year-select select{
+  width: 120px;
+  padding: 5px;
+  border: none;
+  background-color: var(--color-white-light);
+  font-size: var(--font-size-medium);
+}
+
+@media only screen and (max-width: 768px) {
+  .table-wrapper{
+    overflow: auto;
+    position: relative;
+  }
+}

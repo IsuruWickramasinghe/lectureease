@@ -1,0 +1,147 @@
+.pending-records {
+  padding: var(--spacing-large);
+  box-shadow: var(--box-shadow-1);
+  background-color: var(--color-white);
+  height: calc(100vh - var(--headerbar-height));
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.pending-lect-and-sub-selection {
+  box-shadow: var(--box-shadow-1);
+  padding: 20px;
+  max-width: 250px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.select-pending-lec,
+.select-pending-sub {
+  display: grid;
+  padding: 0 0 10px 0;
+}
+
+.select-pending-lec select,
+.select-pending-sub select {
+  padding: 5px;
+  border: none;
+  background-color: var(--color-white-light);
+}
+
+.pending-records-table {
+  box-shadow: var(--box-shadow-1);
+  border-radius: 20px;
+  padding: 20px;
+  width: 100%;
+  max-height: calc(100% - 200px); /* Adjust the value to accommodate other elements */
+  height: 100%;
+  overflow-y: auto;
+}
+
+.apb,
+.napb {
+  text-align: center;
+  font-size: var(--font-size-large);
+  font-weight: 700;
+  background-color: var(--color-white-light);
+  color: green;
+}
+.apb{
+  color: green;
+}
+.napb {
+  color: red;
+}
+.apb:hover,
+.napb:hover{
+  background-color: var(--color-white-dark);
+}
+
+
+
+
+
+.pending-records h1 {
+  font-size: var(--font-size-medium);
+  color: var(--color-primary);
+  width: 100%;
+  background-color: var(--color-white-light);
+  padding: 10px;
+}
+
+.pending-records-sheet::-webkit-scrollbar {
+  width: 5px;
+}
+
+.pending-records-sheet::-webkit-scrollbar-thumb {
+  background-color: var(--color-gray-dark);
+  border-radius: 5px;
+}
+
+.pending-record-table {
+  width: 100%;
+  font-size: var(--font-size-small);
+}
+
+.pending-record-table thead {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+.pending-record-table thead tr td,
+.pending-record-table tbody tr td {
+  padding: 5px;
+}
+
+.pending-record-table thead tr td:first-child,
+.pending-record-table tbody tr td:first-child {
+  width: 100px;
+}
+
+.pending-record-table thead tr td:not(:first-child, :nth-child(2)) {
+  width: 60px;
+}
+
+.Approved {
+  background-color: rgb(188, 252, 188);
+}
+
+.Approved:hover {
+  background-color: rgb(158, 255, 158);
+  cursor: pointer;
+}
+
+.notApproved {
+  background-color: rgb(255, 174, 174);
+}
+
+.notApproved:hover {
+  background-color: rgb(255, 126, 126);
+  cursor: pointer;
+}
+
+
+.records-data {
+  box-shadow: var(--box-shadow-1);
+  padding: 15px;
+  max-width: 300px;
+  width: 100%;
+  border-radius: 20px;
+  background-color: var(--color-primary-light);
+  color: var(--color-white);
+}
+.records-data .subject-name{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.records-data div div:not(:first-child){
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 30px;
+  font-size: 14px;
+}
+.records-data div div:not(:first-child) p{
+  font-size: 20px;
+}

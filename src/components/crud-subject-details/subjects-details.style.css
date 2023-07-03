@@ -1,0 +1,141 @@
+.crud-subjects-details{
+  display: flex;
+  gap: var(--spacing-large);
+  flex-wrap: wrap;
+}
+.select-subject-wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-medium);
+  width: 300px;
+}
+.select-department{
+  width: 250px;
+  padding: 5px;
+  color: var(--color-primary);
+  border: none;
+  background-color: var(--color-white-light);
+}
+
+.add-new-subect{
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-small);
+  padding-bottom: var(--spacing-large);
+  border-bottom: 1px solid var(--color-primary);
+}
+.add-new-subect input{
+  width: 250px;
+  padding: 5px;
+}
+.add-new-subect button{
+  padding: 10px 0;
+  width: 250px;
+  color: var(--color-white);
+  background-color: var(--color-primary);
+  border: none;
+  border-radius: 5px;
+  transition: all .1s;
+}
+.add-new-subect button:hover{
+  cursor: pointer;
+}
+.add-new-subect button:active{
+  scale: 0.95;
+}
+.show-all-subjects{
+  width: 250px;
+  max-height: 250px;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.show-all-subjects .subjects{
+  font-size: var(--font-size-medium);
+  background-color: var(--color-white-light);
+  padding: var(--spacing-small);
+  transition: all var(--transition-duration);
+}
+.show-all-subjects .subjects:hover{
+  background-color: var(--color-white-dark);
+}
+.show-all-subjects .subjects .subject-link{
+  color: var(--color-primary);
+  font-size: var(--font-size-small);
+  cursor: pointer;
+}
+.select_subject{
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-medium);
+}
+
+
+.crud-subject{
+  display: flex;
+  flex-direction: column;
+}
+.crud-subject-details-field{
+  display: grid;
+  padding: 5px;
+}
+.crud-subject-details-field input{
+  padding: 5px;
+  width: 250px;
+  letter-spacing: 1px;
+}
+
+.crud-subjects-btns{
+  display: flex;
+  gap: var(--spacing-large);
+  justify-content: space-evenly;
+  padding: var(--spacing-medium);
+}
+.crud-subjects-btns button{
+  border: none;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  padding: 10px;
+  width: 100px;
+  border-radius: 5px;
+  transition: all .1s;
+}
+.crud-subjects-btns button:last-child{
+  background-color: rgb(255, 0, 0);
+}
+.crud-subjects-btns button:hover{
+  cursor: pointer;
+}
+.crud-subjects-btns button:active{
+  scale: .95;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

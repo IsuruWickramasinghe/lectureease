@@ -1,0 +1,19 @@
+.sign-out{
+  transition: all var(--transition-duration);
+  cursor: pointer;
+}
+.sign-out:hover{
+  color: var(--color-active);
+}
+.sign-out::before{
+  transition: all var(--transition-duration);
+}
+.sign-out:hover::before{
+  content: "Sign Out";
+  position: absolute;
+  right: 10px;
+  top: var(--headerbar-height);
+  color: var(--color-primary);
+  background-color: var(--color-gray-dark);
+  padding: var(--spacing-small);
+}

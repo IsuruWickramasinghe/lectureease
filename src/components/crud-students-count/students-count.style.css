@@ -1,0 +1,50 @@
+.students-count-wrapper{
+  display: flex;
+  gap: var(--spacing-large);
+}
+.student-count-text-field{
+  display: grid;
+  padding: var(--spacing-small);
+  gap: 5px;
+  font-weight: 600;
+  place-items: center;
+}
+.year-one{
+  border-right: 1px solid black;
+  padding-right: 20px;
+}
+.year-one h2,
+.year-two h2{
+  color: var(--color-primary-light);
+}
+.student-count-text-field input{
+  height: 50px;
+  width: 100px;
+  font-size: 30px;
+  text-align: center;
+  border: none;
+}
+.boys{
+  color: blue;
+}
+.girls{
+  color: violet;
+}
+.student-count-update-btn{
+  padding: var(--spacing-large);
+  text-align: center;
+  width: 300px;
+}
+.student-count-update-btn button{
+  width: 150px;
+  padding: 10px 0;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  cursor: pointer;
+  transition: all .1s;
+}
+.student-count-update-btn button:active{
+  scale: .95;
+}

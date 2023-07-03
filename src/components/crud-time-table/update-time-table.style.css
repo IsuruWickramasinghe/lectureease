@@ -1,0 +1,41 @@
+.table-header td{
+  width: 100px;
+  font-size: 12px;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.table-body tr td input{
+  width: 150px;
+  text-align: center;
+  padding: 10px 0;
+}
+.table-body tr td:first-child input{
+  width: 100px;
+}
+.select-year{
+  margin-bottom: 10px;
+}
+.select-year select{
+  width: 100px;
+  padding: 5px;
+  margin-left: 10px;
+  border: none;
+  background-color: var(--color-white-light);
+}
+.timetable-update-btn{
+  padding: 10px;
+}
+.timetable-update-btn button{
+  width: 150px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border: none;
+  cursor: pointer;
+  transition: all .1s;
+}
+.timetable-update-btn button:active{
+  scale: .95;
+}

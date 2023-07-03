@@ -1,0 +1,63 @@
+.display-records h1 {
+  font-size: var(--font-size-medium);
+  color: var(--color-primary);
+  width: 100%;
+  background-color: var(--color-white-light);
+  padding: 10px;
+}
+
+.display-records-sheet {
+  max-height: 400px; /* Adjust the value as needed */
+  overflow-y: auto;
+}
+
+.display-records-sheet::-webkit-scrollbar {
+  width: 5px;
+}
+
+.display-records-sheet::-webkit-scrollbar-thumb {
+  background-color: var(--color-gray-dark);
+  border-radius: 5px;
+}
+
+.display-record-table {
+  width: 100%;
+  font-size: var(--font-size-small);
+}
+
+.display-record-table thead {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+.display-record-table thead tr td,
+.display-record-table tbody tr td {
+  padding: 5px;
+}
+
+.display-record-table thead tr td:first-child,
+.display-record-table tbody tr td:first-child {
+  width: 100px;
+}
+
+.display-record-table thead tr td:not(:first-child, :nth-child(2)) {
+  width: 60px;
+}
+
+.Approved {
+  background-color: rgb(188, 252, 188);
+}
+
+.Approved:hover {
+  background-color: rgb(158, 255, 158);
+  cursor: pointer;
+}
+
+.notApproved {
+  background-color: rgb(255, 174, 174);
+}
+
+.notApproved:hover {
+  background-color: rgb(255, 126, 126);
+  cursor: pointer;
+}

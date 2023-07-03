@@ -1,0 +1,41 @@
+.LoginPage{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100svh;
+}
+.loginPage-art{
+  background-color: var(--color-primary);
+  color: var(--color-tertiary);
+  font-family: var(--font-montserrat-alternates);
+  text-align: center;
+  width: 50svw;
+  height: 100svh;
+  font-size: var(--font-size-small);
+  letter-spacing: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  padding: var(--spacing-large);
+}
+
+@media only screen and (max-width: 768px) {
+  .LoginPage{
+    display: flex;
+    flex-direction: column;
+  }
+  .loginPage-art{
+    width: 100svw;
+    height: 250px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+  }
+  .loginPage-art img{
+    width: 100px;
+  }
+}

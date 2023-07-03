@@ -1,0 +1,82 @@
+.stats{
+  padding: var(--spacing-large);
+  box-shadow: var(--box-shadow-1);
+  background-color: var(--color-white);
+  height: calc(100svh - var(--headerbar-height));
+  overflow-x: hidden;
+  overflow-y: scroll;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  gap: var(--spacing-medium);
+}
+.students-details-chart,
+.lecture-hours-chart{
+  background-color: var(--color-white);
+  box-shadow: var(--box-shadow-1);
+  padding: var(--spacing-large);
+  border-radius: 10px;
+}
+.students-details-chart{
+  width: 400px;
+  height: 400px;
+}
+.lecture-hours-chart{
+  width: 600px;
+  height: 400px;
+}
+.chart-header{
+  font-size: var(--font-size-medium);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-secondary);
+  padding: var(--spacing-medium);
+}
+
+.resetEmailPass{
+  max-width: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: var(--box-shadow-1);
+  padding: 20px 10px;
+  border-radius: 20px;
+}
+.userDetailsInputFields{
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 5px 0;
+}
+.userDetailsInputFields input{
+  width: 230px;
+  padding: 5px;
+  letter-spacing: 1px;
+}
+.resetEmailPass button{
+  width: 230px;
+  padding: 10px 0;
+  border: none;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all .1s;
+}
+.resetEmailPass button:active{
+  scale: .95;
+}
+.reset-msg{
+  font-size: var(--font-size-medium);
+  width: 200px;
+  text-align: center;
+}
+.resetEmailPass h3{
+  color: var(--color-primary-light);
+}
+
+.download-pdf-card{
+  width: 100%;
+  box-shadow: var(--box-shadow-1);
+  padding: 20px;
+  border-radius: 20px;
+}

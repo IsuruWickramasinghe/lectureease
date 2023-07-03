@@ -1,0 +1,60 @@
+.loginPage-loginForm{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50svw;
+  height: 100svh;
+  background-color: var(--color-white);
+}
+.loginPage-loginForm form{
+  padding: var(--spacing-large);
+  box-shadow: var(--box-shadow-1);
+  border-radius: 15px;
+}
+.loginForm-inputField{
+  display: grid;
+  gap: var(--spacing-small);
+  margin: var(--spacing-large);
+  font-size: var(--font-size-medium);
+  padding: 10px 0;
+}
+.loginForm-inputField input{
+  padding: var(--spacing-small);
+  width: 250px;
+  height: 40px;
+  border: none;
+  border-bottom: 1px solid var(--color-primary-light);
+  font-size: var(--font-size-large);
+}
+.loginForm-inputField input:focus{
+  outline: none;
+  border-bottom: 1px solid var(--color-tertiary-dark);
+}
+.loginForm-btn{
+  text-align: center;
+  padding: var(--spacing-large);
+}
+.loginForm-btn button{
+  padding: var(--spacing-small);
+  width: 100%;
+  height: 50px;
+  border: none;
+  font-size: var(--font-size-medium);
+  font-weight: var(--font-weight-bold);
+  letter-spacing: 2px;
+  border-radius: 10px;
+  background-color: var(--color-primary);
+  color: var(--color-tertiary);
+  transition: all var(--transition-duration);
+}
+.loginForm-btn button:hover{
+  cursor: pointer;
+}
+.loginForm-btn button:active{
+  scale: .95;
+}
+.loginMsg{
+  font-size: var(--font-size-small);
+  text-align: center;
+  color: var(--color-secondary-light);
+}

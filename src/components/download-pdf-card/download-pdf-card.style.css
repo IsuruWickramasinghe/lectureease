@@ -1,0 +1,79 @@
+.your-records{
+  font-size: var(--font-size-large);
+  font-weight: 600;
+  color: var(--color-primary);
+  padding: 0 0 10px 0;
+}
+.select-and-down {
+  display: flex;
+  gap: var(--spacing-medium);
+}
+.select-and-down select,
+.select-and-down button{
+  border: none;
+  padding: 5px 10px;
+  margin-bottom: var(--spacing-medium);
+}
+.select-and-down select{
+  background-color: var(--color-white-light);
+}
+.select-and-down button{
+  border-radius: 5px;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  cursor: pointer;
+  transition: all .1s;
+}
+.select-and-down button:active{
+  scale: .95;
+}
+
+.downloadable-file{
+  padding: 10px;
+}
+.selected-data{
+  font-size: var(--font-size-medium);
+  font-weight: 600;
+  margin-bottom: 10px;
+  display: grid;
+  gap: 5px;
+  max-width: 400px;
+  width: 100%;
+}
+.selected-data div{
+  display: flex;
+  align-items: center;
+  height: 20px;
+  width: 100%;
+  gap: 10px;
+}
+
+/* table */
+.downloadable-file table{
+  border: 1px solid black;
+  width: 100%;
+}
+.downloadable-file table thead tr{
+  background-color: white;
+  color: black;
+}
+.ApprovedX td{
+  background-color: var(--color-white-dark);
+}
+.notApprovedX td{
+  background-color: rgb(255, 161, 161);
+}
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+  .downloadable-file {
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+  .select-and-down button{
+    display: none;
+  }
+  .select-and-down select{
+    width: 200px;
+    font-size: 13px;
+  }
+}

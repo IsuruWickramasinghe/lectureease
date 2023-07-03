@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Montserrat:wght@400;600;700&display=swap');
+
+:root {
+  /* FOnt Family */
+  --font-montserrat: 'Montserrat', sans-serif;
+  --font-montserrat-alternates: 'Montserrat Alternates', sans-serif; 
+
+  /* Font Styles */
+  --font-size-small: 14px;
+  --font-size-medium: 16px;
+  --font-size-large: 20px;
+  --font-weight-normal: 400;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --line-height-normal: 1.5;
+  --line-height-heading: 1.2;
+
+  /* Colors */
+  --color-primary: #222831;
+  --color-primary-light: #3c4454;
+  --color-primary-dark: #1a1e26;
+
+  --color-secondary: #393e46;
+  --color-secondary-light: #515861;
+  --color-secondary-dark: #30343c;
+
+  --color-tertiary: #ffff00;
+  --color-tertiary-light: #ffff99;
+  --color-tertiary-dark: #cccc00;
+
+  --color-white: #ffffff;
+  --color-white-light: #f2f2f2;
+  --color-white-dark: #d9d9d9;
+
+  --color-gray: #eeeeee;
+  --color-gray-light: #f8f8f8;
+  --color-gray-dark: #cccccc;
+
+  --color-success: #00ce45;
+  --color-active: #FC4F00;
+
+  /* Padding and Margins */
+  --spacing-small: 8px;
+  --spacing-medium: 16px;
+  --spacing-large: 24px;
+
+  /* Sidebar */
+  --sidebar-width: 250px;
+
+  /* Headerbar */
+  --headerbar-height: 50px;
+
+  /* Other Important Styles */
+  --transition-duration: 0.3s;
+
+  /* Box Shadow */
+  --box-shadow-0: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  --box-shadow-1: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+  /* Border */
+  --border-light: 1px solid var(--color-gray-dark);
+
+  /* Breakpoints */
+  --breakpoint-small: 480px; /* Mobile devices */
+  --breakpoint-medium: 768px; /* Tablets */
+  --breakpoint-large: 1024px; /* Desktops */
+
+}
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+  :root{
+    /* Padding and Margins */
+    --spacing-small: 6px;
+    --spacing-medium: 12px;
+    --spacing-large: 18px;
+  
+    /* Sidebar */
+    --sidebar-width: 200px;
+
+    /* Headerbar */
+  --headerbar-height: 45px;
+  
+    /* Font Sizes */
+    --font-size-small: 12px;
+    --font-size-medium: 14px;
+    --font-size-large: 18px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  :root{
+    /* Padding and Margins */
+    --spacing-small: 4px;
+    --spacing-medium: 8px;
+    --spacing-large: 12px;
+  
+    /* Sidebar */
+    --sidebar-width: 180px;
+
+    /* Headerbar */
+  --headerbar-height: 40px;
+  
+    /* Font Sizes */
+    --font-size-small: 10px;
+    --font-size-medium: 12px;
+    --font-size-large: 16px;
+  }
+}
+*{
+  box-sizing: border-box;
+  /* outline: 1px solid rgb(177, 177, 177); */
+}
+a{
+  text-decoration: none;
+}
+body{
+  margin: 0;
+  font-family: var(--font-montserrat);
+  font-weight: var(--font-weight-normal);
+}
+.success-message{
+  color: var(--color-primary);
+  text-align: center;
+  font-size: var(--font-size-small);
+  padding: 5px 0;
+  width: 250px;
+}

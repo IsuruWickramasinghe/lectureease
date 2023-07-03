@@ -1,0 +1,52 @@
+.crud-user-form-data-field{
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  justify-content: center;
+  align-items: flex-start;
+}
+.crud-user-form-data-field input,
+.crud-user-form-data-field select{
+  width: 300px;
+  padding: 5px;
+  letter-spacing: 1px;
+  font-size: var(--font-size-medium);
+}
+.crud-user-form-data-field button{
+  width: 300px;
+  padding: 10px 0;
+  transition: all .1s;
+  border: none;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border-radius: 5px;
+}
+.crud-user-form-data-field button:hover{
+  cursor: pointer;
+}
+.crud-user-form-data-field button:active{
+  scale: 0.95;
+}
+.setAdmin{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.setAdmin input{
+  width: 50px;
+}
+
+.crud-user{
+  display: flex;
+  gap: var(--spacing-large);
+}
+.user-subject-list{
+  max-height: 400px;
+  height: 100%;
+}
+.user-subject-list ol li{
+  padding: 0 0 5px 0;
+}
+.user-subject-list ol li ol li{
+  font-size: var(--font-size-small);
+}
