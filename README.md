@@ -13,7 +13,7 @@
   <h2>Installation</h2>
   <ol>
     <li>Clone the repository:</li>
-    <pre><code>git clone https://github.com/your-username/lecture-ease.git</code></pre>
+    <pre><code>git clone https://github.com/isuruwebdev/lecture-ease.git</code></pre>
     <li>Install the dependencies:</li>
     <pre><code>cd lecture-ease<br>npm install</code></pre>
     <li>Start the application:</li>
@@ -53,4 +53,4 @@
   <p>For any inquiries or feedback, please contact the project maintainer:</p>
   <p>Your Name<br>Email: your.email@example.com</p>
   
-  <p>Feel free to visit the project repository: <a href="https://github.com/your-username/lecture-ease">https://github.com/your-username/lecture-ease</a></p>
+  <p>Feel free to visit the project repository: <a href="https://github.com/isuruwebdev/lecture-ease">https://github.com/isuruwebdev/lecture-ease</a></p>
