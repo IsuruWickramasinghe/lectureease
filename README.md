@@ -51,6 +51,6 @@
   
   <h2>Contact</h2>
   <p>For any inquiries or feedback, please contact the project maintainer:</p>
-  <p>Your Name<br>Email: your.email@example.com</p>
+  <p>isuruW<br>Email: isuruwebdev@gmail.com</p>
   
   <p>Feel free to visit the project repository: <a href="https://github.com/isuruwebdev/lecture-ease">https://github.com/isuruwebdev/lecture-ease</a></p>
