@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lecture Ease</title>
-</head>
-<body>
+
   <h1>Lecture Ease</h1>
   
   <h2>Features</h2>
@@ -61,5 +54,3 @@
   <p>Your Name<br>Email: your.email@example.com</p>
   
   <p>Feel free to visit the project repository: <a href="https://github.com/your-username/lecture-ease">https://github.com/your-username/lecture-ease</a></p>
-</body>
-</html>
