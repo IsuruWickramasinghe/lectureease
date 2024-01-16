@@ -53,4 +53,4 @@
   <p>For any inquiries or feedback, please contact the project maintainer:</p>
   <p>isuruW<br>Email: isuruwebdev@gmail.com</p>
   
-  <p>Feel free to visit the project repository: <a href="https://github.com/isuruwebdev/lecture-ease">https://github.com/isuruwebdev/lecture-ease</a></p>
+  <p>Feel free to visit the project repository: <a href="https://isuruwickramasinghe.github.io/lectureease/">https://isuruwickramasinghe.github.io/lectureease/</a></p>
